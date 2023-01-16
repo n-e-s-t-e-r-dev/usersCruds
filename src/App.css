@@ -1,0 +1,95 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+i{
+  padding: 0 0.3rem 0 0;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.input-container{
+  padding: 3rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  width: 30rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.input-container .input{
+  padding: 8px 10px;
+  width: 21.5rem;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+.input-container .input-name{
+  padding: 8px 10px;
+  width: 10rem;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+.button-input{
+  margin: 2rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.card-list{
+  padding: 2rem;
+}
+
+.list{
+  border-radius: 1rem;
+  height: 11.5rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-li{
+  padding: .5rem 1rem .5rem 1rem;
+  text-align: justify;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+}
+
+ul,li {
+  text-decoration: none;
+}
